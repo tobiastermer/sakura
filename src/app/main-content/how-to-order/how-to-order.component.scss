@@ -1,0 +1,34 @@
+section{
+    background-color: white;
+    width: calc(100% - 144px);
+    padding: 48px 72px 48px 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    font-family: 'Economica';
+    font-weight: bold;
+    h2{
+        font-size: 48px;
+        color: #993629;
+    }
+}
+
+.how-to-order-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.how-to-order-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    font-size: 32px;
+    img{
+        height: 96px;
+    }
+}

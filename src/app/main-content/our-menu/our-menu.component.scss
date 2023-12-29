@@ -1,0 +1,51 @@
+section {
+    background-image: url('./../../../assets/img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: calc(100% - 144px);
+    padding: 48px 72px 48px 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    font-family: 'Economica';
+    font-weight: bold;
+
+    h2 {
+        font-size: 48px;
+        color: #993629;
+    }
+
+    h3 {
+        font-size: 36px;
+        color: black;
+        white-space: nowrap;
+        margin-top: 16px;
+    }
+
+    img {
+        height: 224px;
+        width: 224px;
+    }
+
+    table {
+        color: rgb(71, 71, 71);
+        font-size: 20px;
+
+        tr td:first-child {
+            width: 180px;
+        }
+    }
+
+    .dish-container {
+        display: flex;
+        gap: 32px;
+        margin-bottom: 32px;
+    }
+
+    .dish-description {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+}
